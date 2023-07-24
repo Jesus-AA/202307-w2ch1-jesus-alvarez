@@ -4,12 +4,16 @@
   "description": "challenge1",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass sass:css --watch"
   },
   "keywords": [
     "CSS",
     "HTML"
   ],
   "author": "Jesus Alvarez",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.64.1"
+  }
 }
