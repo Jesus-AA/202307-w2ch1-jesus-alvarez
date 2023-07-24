@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  padding: 3.75rem 1.875rem;
+  font-family: "League Spartan", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4rem;
+  background-color: black;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  font-size: 5.5rem;
+  color: #cfd4d8;
+}
+
+a {
+  align-self: flex-start;
+  font-size: 2rem;
+  text-decoration: none;
+  color: #cfd4d8;
+}
