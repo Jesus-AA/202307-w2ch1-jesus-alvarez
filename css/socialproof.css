@@ -1,3 +1,62 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  width: 100vw;
+}
+
+.main {
+  padding: 3.75rem 1.875rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.main .main-section, .main .main-section--title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "League Spartan", sans-serif;
+}
+.main .main-section--title {
+  gap: 1rem;
+}
+.main .main-section--title .main-section--title__heading {
+  font-size: 2.5rem;
+  text-align: center;
+  font-weight: 700;
+  color: hsl(300, 43%, 22%);
+}
+.main .main-section--title .main-section--title__paragraph {
+  color: hsl(303, 10%, 53%);
+  text-align: center;
+  font-size: 1.1rem;
+}
+.main .main-section--cards {
+  gap: 1rem;
+}
+.main .main-section--cards .star-cards-box {
+  background-color: hsl(300, 24%, 96%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  align-self: stretch;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+}
+.main .main-section--cards .star-cards-box .star-cards-box___stars {
+  font-size: 1.1rem;
+}
+.main .main-section--cards .star-cards-box .star-cards-box___words {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: hsl(300, 43%, 22%);
+}
 
 /*# sourceMappingURL=socialproof.css.map */
