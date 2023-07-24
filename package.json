@@ -1,0 +1,15 @@
+{
+  "name": "lunes-24-de-julio-2023",
+  "version": "1.0.0",
+  "description": "challenge1",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "CSS",
+    "HTML"
+  ],
+  "author": "Jesus Alvarez",
+  "license": "ISC"
+}
