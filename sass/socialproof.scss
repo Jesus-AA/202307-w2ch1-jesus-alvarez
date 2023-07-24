@@ -108,3 +108,37 @@ body {
     }
   }
 }
+
+@media (min-width: 700px) {
+  body {
+    display: inline;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    .main {
+      padding: 10rem 8rem;
+      flex-direction: row;
+
+      .main-section--title {
+        width: 20rem;
+
+        .main-section--title__heading {
+          text-align: left;
+        }
+        .main-section--title__paragraph {
+          text-align: left;
+        }
+      }
+
+      .main-section--cards {
+        .star-cards-box {
+          width: 25rem;
+        }
+      }
+
+      .main-section--comments {
+        width: 25rem;
+      }
+    }
+  }
+}
