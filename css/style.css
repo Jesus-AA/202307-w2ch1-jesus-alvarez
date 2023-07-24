@@ -10,18 +10,17 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 1rem;
+  gap: 4rem;
   background-color: black;
 }
 
 header {
-  deisplay: flex;
+  display: flex;
   flex-direction: column;
   align-items: center;
 }
 
 h1 {
-  padding: 3rem;
   font-size: 5.5rem;
   color: #cfd4d8;
 }
