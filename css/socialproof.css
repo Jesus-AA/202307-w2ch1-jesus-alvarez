@@ -97,4 +97,31 @@ body {
   line-height: 1.7rem;
 }
 
+@media (min-width: 700px) {
+  body {
+    display: inline;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  body .main {
+    padding: 10rem 8rem;
+    flex-direction: row;
+  }
+  body .main .main-section--title {
+    width: 20rem;
+  }
+  body .main .main-section--title .main-section--title__heading {
+    text-align: left;
+  }
+  body .main .main-section--title .main-section--title__paragraph {
+    text-align: left;
+  }
+  body .main .main-section--cards .star-cards-box {
+    width: 25rem;
+  }
+  body .main .main-section--comments {
+    width: 25rem;
+  }
+}
+
 /*# sourceMappingURL=socialproof.css.map */
